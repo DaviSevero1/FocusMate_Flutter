@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "4897882604d919befd350648c7f91926a9d5de99e67b455bf0917cc2362f4bb8"
+      sha256: e440ac42679dfc04bbbefb58ed225c994bc7e07fccc8a68ec7d3631a127e5da9
       url: "https://pub.dev"
     source: hosted
-    version: "47.0.0"
+    version: "54.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "690e335554a8385bc9d787117d9eb52c0c03ee207a607e593de3c9d71b1cfe80"
+      sha256: "2c2e3721ee9fb36de92faa060f3480c81b23e904352b087e5c64224b1a044427"
       url: "https://pub.dev"
     source: hosted
-    version: "4.7.0"
+    version: "5.6.0"
   args:
     dependency: transitive
     description:
@@ -33,6 +33,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.10.0"
+  auto_injector:
+    dependency: transitive
+    description:
+      name: auto_injector
+      sha256: e473e81b625c5a8f26abbeda285759bd781a48be204e66dfec9b3b5812580a76
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -242,18 +250,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_modular
-      sha256: "061f0bcc8f8c438d4c82f4ff70a9e61f109961c92b4e1eaf1bbfab75f577fe0e"
+      sha256: f42afc199b337ea67ac3787cf23f71aef55e81c293c4cfc269efd210b12cb3b9
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.3"
-  flutter_modular_annotations:
-    dependency: transitive
-    description:
-      name: flutter_modular_annotations
-      sha256: "65971655bdd30816a6a66651c801f4ceba6c8ba265f0866cc51ad038332c9a71"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.2"
+    version: "6.0.0-alpha.5"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -315,6 +315,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      sha256: a3715e3bc90294e971cb7dc063fbf3cd9ee0ebf8604ffeafabd9e6f16abbdbe6
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.18.0"
   io:
     dependency: transitive
     description:
@@ -399,18 +407,18 @@ packages:
     dependency: transitive
     description:
       name: modular_core
-      sha256: "84cfe65d2ab15b0265a5bdb07a7a0408b06f8d92fee6fb94a3c85e97cbc2d6af"
+      sha256: "5f4f8d35b942445381d976139c5dcca7890a708c78a0105507aaba25d95128c1"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.3+1"
-  modular_interfaces:
-    dependency: transitive
+    version: "3.0.0-alpha.5"
+  motion_tab_bar_v2:
+    dependency: "direct main"
     description:
-      name: modular_interfaces
-      sha256: "89db18038048d63de80871189ddc52363814e8181615459e5d88ed0a921acc1f"
+      name: motion_tab_bar_v2
+      sha256: "3e8587d17c9c2626e3b28f2eb8a73d7230811596ea99b22d322288ea689f7c01"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.2"
+    version: "0.2.6"
   node_preamble:
     dependency: transitive
     description:
@@ -471,26 +479,26 @@ packages:
     dependency: "direct main"
     description:
       name: realm
-      sha256: c6cedd2a31b46f1e0a4e90ea5d237e9b5f56562fd1aa7fc7ecde3d52f9f2685b
+      sha256: ba8e23b1577450c20c9b11fd1fd7a4f94eb35ca1bbd6c154f731bf43bc3f5dbc
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.0+rc"
+    version: "1.0.2"
   realm_common:
     dependency: transitive
     description:
       name: realm_common
-      sha256: eafef694ce2997e016bfe1d25e6317d685b5d09b1b118679b8bd4c8fcf7b1545
+      sha256: "5e6bc3771fe16151f175ab7ae5134715488056a6ab81638074f856d6bb28cc02"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.0+rc"
+    version: "1.0.2"
   realm_generator:
     dependency: transitive
     description:
       name: realm_generator
-      sha256: "1bc514a692a43cce08c9fc4f1bec321cec130d64a59d36ca5d8f1fc940167f20"
+      sha256: "9e11fc2736a8af9c4da9f7e2ff1409e7772d1a928d1e3d4aa3ab8e0df15ed75e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.0+rc"
+    version: "1.0.2"
   result_dart:
     dependency: "direct main"
     description:
@@ -730,4 +738,4 @@ packages:
     version: "3.1.1"
 sdks:
   dart: ">=2.19.0 <3.0.0"
-  flutter: ">=3.0.0"
+  flutter: ">=3.0.3"
